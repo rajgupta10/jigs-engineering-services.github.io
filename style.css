@@ -1,0 +1,194 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @media (max-width: 768px) {
+    /* CSS styles for smaller screens */
+}
+.navbar-toggler{
+  color: #000000;
+}
+.navbar-toggler-icon{
+  color: #000000;
+  background-image: url('three-dots.svg'); 
+}
+
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .main-content {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  .cards {
+    transition: transform 0.2s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+    bottom: 15px;
+  }
+  .cards:hover {
+    color: #f4f4f4;
+    background-image: url('iconbox-bg2-3.jpg'); /* Change this to your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .card-icon {
+
+    font-size: 1rem;
+    color: #000000;
+    position: relative;
+    top: 8%; 
+    left: 50%;
+    transform: translate(-50%, 50%);
+    
+}
+.h3-cards{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #555;
+  padding-bottom: 10px;
+
+}
+.h1-cards{
+  font-size: 30px;
+  text-align: center;
+  color: rgb(36, 36, 56);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+.h4-cards{
+  font-size: 15px;
+  text-align: center;
+  color: #555;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 25px;
+  
+
+}
+  .card-upper{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: relative;
+    bottom: 50%;
+    background-color: #f4f4f4;
+  }
+  .card-title {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .card-text {
+    padding-top: 80px;
+
+    size: 10px;
+  }
+
+  .video-card{
+    size: 1000px;
+  }
+
+  .card video {
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* This maintains the aspect ratio */
+  }
+  .carousel-inner {
+    overflow: hidden;
+    padding-left: 1px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 1px; /* Hide video options */
+  }
+
+  .navbar-brand img {
+    height: 30px; /* Adjust height as needed */
+  }
+  .navbar {
+    justify-content: center; /* Center the navbar */
+  }
+
+
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    top: 20%;
+  }
+  .about-text {
+    flex: 1;
+    padding-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555;
+    font-size: 15px;
+  }
+  .about {
+    padding-right: 50px;
+    padding-bottom: 90px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+  }
+  .about-text h2 {
+    margin-bottom: 20px;
+  }
+  .about-image {
+    flex: 1;
+  }
+  .about-image img {
+    max-width: 90%;
+    height: auto; 
+    text-align: left;
+  }
+  .button {
+    background-color: #0444aa;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 2px;
+  }
+  .button1 {border-radius: 50px;}  
